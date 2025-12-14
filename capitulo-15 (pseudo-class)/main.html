@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalhando com pseudo-class</title>
+</head>
+<style>
+     
+     body {
+        background-color: rgb(158, 158, 127);
+     }
+
+     main {
+        width: 600px;
+        border-radius: 20px;
+        background-color: white;
+        margin: auto;
+     }
+
+     h1 {
+        text-align: center;
+        margin: auto;
+
+     }
+
+     div:hover {
+        background-color: red;
+     }
+
+     div > p {
+        display: none;
+     }
+
+     div:hover > P {
+        display: block;
+     }
+
+
+</style>
+<body>
+   <main>
+       <h1>passe o mouse aqui abaixo</h1>
+       <div>aqui
+        <p>TEXTO ESCONDIDO</p>
+       </div>
+   
+   </main>
+  
+</body>
+</html>
